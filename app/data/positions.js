@@ -12,8 +12,8 @@ const positions = [
         points: [
             'Created a web and desktop based monitoring application that provides insight to customers about packages in transit.',
             'Developed comprehensive modules that display state of packages in well informed Graphs.',
-            'The development involved tools and technologies such as WPF and C# for desktop application and an Angular SPA powered by LAMP',
-            'YC Alumn. Worked on everything. Built a 16-person team.',
+            'WPF and C# power the desktop application and the web application is a Angular SPA powered by LAMP',
+            'Vibration, Shock, Pressure, Temperature, Light, Humidity are the physical parameters that are monitored by the application.',
         ],
     }, {
         company: 'Chess Health',
@@ -21,9 +21,10 @@ const positions = [
         link: 'https://www.chess.health/',
         daterange: 'July 2016 - December 2016',
         points: [
-            'Trained a model for the Brazilian Coffee Scenes Dataset with better than state of the art accuracy.',
-            'Collected training sets on the ground in Uganda. Built dashboards to visualize work of surveyors using Flask, React, and D3.',
-            'Performed supporting analysis to ensure data integrity using Pandas, t-SNE, SVM’s, and other techniques.',
+            'Contributed to enhancement and development of A-Chess platform by adding RESTful APIs that provide statistics about patient health.',
+            'Built dashboards to visualize patient health information using Angular and D3.',
+            'Worked on the Android platform adding features like medication reminder, management of appointments with ' +
+            'caregiver, tracking sobriety by use of geo-location services, streamlining the individual and group chat feature.'
         ],
     }, {
         company: 'VoiceReach (NexSales)',
@@ -31,8 +32,11 @@ const positions = [
         link: 'https://www.voicereach.us',
         daterange: 'August 2014 - July 2015',
         points: [
-            'Worked in Addis Ababa for the Ethiopian Ministry of Health and built data visualization tools in React and Flask.',
-            'Ingested multiple databases with different alphabets, calendars, and without official spellings of geographic locations.',
+            'Co-developed the first version of cloud based agent assisted dialer platform with real-time CRM integration  ' +
+            'using technologies like WebRTC, web-sockets and stateless RESTful node based API.',
+            'Added real-time data integration with Salesforce using the Salesforce-API.',
+            'Wrote scripts to find memory leaks in the web-application that caused unexpected server crashes and fixed' +
+            ' it by migrating from restify to express, reducing memory footprint by 80%'
         ],
     }, {
         company: 'CitiusTech',
@@ -40,9 +44,11 @@ const positions = [
         link: 'https://www.citiustech.com/',
         daterange: 'October 2011 - July 2014',
         points: [
-            'Developed end to end machine learning pipeline to train visual classifiers from keywords using Node.JS, Express, Keystone, MongoDB, AWS, S3, Caffe, and other technologies.',
-            'Received Series A term sheets for 20M+ valuations.',
-        ],
+            'Co-developed a native JavaScript SPA to display and manipulate DICOM images, which was later converted into' +
+            ' a product for leading health-care company. The application was migrated into Knockout and later into Angular.',
+            'Co-developed the imaging pipeline, caching framework, and annotation work-flow.',
+            'Invested actively in fixing memory leaks and supporting browsers that lacked HTML5 features like web-sockets and WebGL.',
+        ]
     }
 ];
 
