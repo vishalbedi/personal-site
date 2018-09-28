@@ -214,7 +214,7 @@ body {
   display: none;
 }
 
-@include breakpoint(medium) {
+@include breakpoint('<=medium') {
   .hamburger-container {
     display: initial;
   }

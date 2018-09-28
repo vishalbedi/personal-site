@@ -4,10 +4,15 @@ const positions = [
         position: 'Research Assistant',
         link: 'https://www.rit.edu/programs/packaging-science-ms',
         daterange: 'January 2017 - Present',
+        /*
+        We built an in-house inexpensive sensor module that communicates with a C\# WPF based standalone application and an Angular SPA powered by LAMP.
+         It logs the data and represent that data over a meaningful dashboard.
+         The sensor module captures vibrations and shocks highlighting any mishandling of the package during transit.
+        * */
         points: [
-            'Created a new financial product for private equity investing. Deployed models to predict the valuation of art at auction.',
-            'Lead development team, set development lifecycle, and managed analytics and web products.',
-            'Developed comprehensive simulations using MCMC, Modern Portfolio Theory, GLM, etc. using Scikit, PyMC3, and Jupyter.',
+            'Created a web and desktop based monitoring application that provides insight to customers about packages in transit.',
+            'Developed comprehensive modules that display state of packages in well informed Graphs.',
+            'The development involved tools and technologies such as WPF and C# for desktop application and an Angular SPA powered by LAMP',
             'YC Alumn. Worked on everything. Built a 16-person team.',
         ],
     }, {
