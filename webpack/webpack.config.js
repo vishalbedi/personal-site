@@ -1,5 +1,7 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
+const webpack = require('webpack');
 
 module.exports = {
     mode: 'development',
@@ -10,12 +12,19 @@ module.exports = {
         publicPath: "/"
     },
     plugins: [
+        new webpack.DefinePlugin({
+            'process.env.NODE_ENV': JSON.stringify('production')
+        }),
+        new webpack.optimize.ModuleConcatenationPlugin(),
         new HtmlWebpackPlugin({
             template: 'server/views/index.html',
             inject: 'body',
             filename: 'index.html'
         })
     ],
+    optimization: {
+        minimizer: [new UglifyJsPlugin()]
+    },
     module: {
         rules: [
             {
