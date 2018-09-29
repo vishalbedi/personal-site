@@ -17,10 +17,6 @@ const data = [
         label: 'Projects',
     },
     {
-        path: '/stats',
-        label: 'Stats',
-    },
-    {
         path: '/contact',
         label: 'Contact',
     },
