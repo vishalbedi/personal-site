@@ -1,8 +1,5 @@
 export const categories = [
     {
-        name: 'Data Science',
-        color: '#515dd4',
-    }, {
         name: 'Databases',
         color: '#3896e2',
     }, {
@@ -18,14 +15,8 @@ export const categories = [
         name: 'Languages',
         color: '#6968b3',
     }, {
-        name: 'Machine Learning',
-        color: '#e47272',
-    }, {
         name: 'Other',
         color: '#c3423f',
-    }, {
-        name: 'Python',
-        color: '#37b1f5',
     }, {
         name: 'Tools',
         color: '#40494e',
@@ -45,6 +36,21 @@ export const skills = [
         title: 'Node.JS',
         compentency: 5,
         category: ['Web Development', 'Frameworks', 'Javascript'],
+    },
+    {
+        title: 'Angular',
+        compentency: 3,
+        category: ['Web Development', 'Frameworks', 'Javascript'],
+    },
+    {
+        title: 'Java',
+        compentency: 4,
+        category: ['Languages'],
+    },
+    {
+        title: 'Android',
+        compentency: 3,
+        category: ['Frameworks'],
     },
     {
         title: 'React',
@@ -99,7 +105,7 @@ export const skills = [
     {
         title: 'Matlab',
         compentency: 3,
-        category: ['Data Science', 'Machine Learning', 'Languages'],
+        category: ['Languages'],
     },
     {
         title: 'Express.JS',
@@ -114,7 +120,7 @@ export const skills = [
     {
         title: 'Flask',
         compentency: 3,
-        category: ['Web Development', 'Frameworks', 'Python'],
+        category: ['Web Development', 'Frameworks'],
     },
     {
         title: 'Git',
@@ -149,7 +155,7 @@ export const skills = [
     {
         title: 'Python',
         compentency: 5,
-        category: ['Languages', 'Python'],
+        category: ['Languages'],
 
     },
     {
@@ -161,6 +167,16 @@ export const skills = [
         title: 'Wireframing',
         compentency: 4,
         category: ['Design', 'Web Development'],
+    },
+    {
+        title: 'C#',
+        compentency: 3,
+        category: ['Languages']
+    },
+    {
+        title: 'php',
+        compentency: 3,
+        category: ['Languages, Web Development'],
     },
     {
         title: 'Neo4j',
